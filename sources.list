@@ -1,0 +1,24 @@
+# 
+
+# deb cdrom:[Debian GNU/Linux 2019.1 _Kali-rolling_ - Official Snapshot amd64 LIVE/INSTALL Binary 20190228-18:04]/ kali-last-snapshot contrib main non-free
+
+#deb cdrom:[Debian GNU/Linux 2019.1 _Kali-rolling_ - Official Snapshot amd64 LIVE/INSTALL Binary 20190228-18:04]/ kali-last-snapshot contrib main non-free
+
+# This system was installed using small removable media
+# (e.g. netinst, live or single CD). The matching "deb cdrom"
+# entries were disabled at the end of the installation process.
+# For information about how to configure apt package sources,
+# see the sources.list(5) manual.
+## Kali Regular repositories
+#deb http://http.kali.org/kali kali main non-free contrib
+#deb http://security.kali.org/kali-security kali/updates main contrib non-free
+## Kali Source repositories
+#deb-src http://http.kali.org/kali kali main non-free contrib
+#deb-src http://security.kali.org/kali-security kali/updates main contrib non-free
+#kali 19.1 source list
+
+#deb-src http://http.kali.org/kali kali-rolling main non-free contrib
+
+#deb-src http://http.kali.org/kali kali-rolling main non-free contrib
+deb https://mirrors.ocf.berkeley.edu/kali kali-rolling main contrib non-free 
+deb-src https://mirrors.ocf.berkeley.edu/kali kali-rolling main contrib non-free
